@@ -1,0 +1,108 @@
+body {
+    background-color: #5ec8d8;
+    margin: 0px 5px 5px;
+    margin: 3%;
+    background: linear-gradient;  
+  }
+  h1 {
+    letter-spacing: 15px;
+    color: purple;
+    margin: 0px;
+  }
+  div {
+    margin: 5% 10%;
+    margin-left: 10px;
+    padding: 5%;
+    width: 80%;
+    height: 100%;
+  }
+  .title{
+  font-family: 'Unbounded', cursive;
+    font-size: 100px;
+    padding: 2%;
+    color: #ffba00;
+  }
+  
+  .title:hover{
+    text-decoration: underline;
+    text-shadow: 5px 5px 15px  #ffff00;
+  }
+  .movingword{
+   font-family: 'Unbounded', cursive;
+   font-size: 50px;
+   color: #ffff00;
+    float: left;
+    transition: 10s;
+  }
+  .movingword:hover{
+    text-shadow: 5px 5px 15px #ff00aa;
+    
+  }
+  .mealname{
+    background-color: #eeeeee;
+  font-family: 'Unbounded', cursive;
+    font-size: 40px;
+    color: #3399ff;
+    float: right;
+    transition: Infinite;
+  }
+  .mealname:hover{
+    filter:opacity (70%)
+  }
+  .story{
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    color: #ff00aa;
+    margin: 5%;
+    padding: 4%;
+  }
+  .story:hover{
+    background-color:#82f0de;
+    filter:opacity(70%);
+  }
+  .story1{
+   font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    margin: 5%;
+    padding: 4%;
+    color: #ff00aa; 
+  }
+  .story1:hover{
+    background-color:#14eecd;
+    filter:opacity(70%);
+  }
+  .story2{
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+    margin: 5%;
+    padding: 4%;
+    color: #ff00aa; 
+  }
+  .story2:hover{
+    background-color: #00ffaa;
+    filter:opacity(70%); 
+  }
+  .story3{
+    font-family:'Unbounded', cursive;
+    font-size: 30px;
+    margin: 5%;
+    padding: 4%;
+    color: #ff00aa; 
+  }
+  .story3:hover{
+   background-color: #14f111;
+    filter:opacity(70%);  
+  }
+  .story4{
+    font-family:'Unbounded', cursive;
+    font-size: 30px;
+    color: #ff00aa;
+    margin: 5%;
+    padding: 4%;
+  }
+  .story4:hover{
+    background-color:#3ac63d;
+    filter:opacity(70%)
+  }
+  
+  
