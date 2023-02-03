@@ -23,7 +23,7 @@ div {
     to {background-color:black;
     color: white;
       letter-spacing: 10px;
-      filter:blur(5px);
+      filter:blur(3px);
         font-size: 150px;
     }
   }
