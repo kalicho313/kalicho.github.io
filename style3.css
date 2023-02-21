@@ -1,0 +1,98 @@
+body{
+	background-color: gray;
+	margin: 80px;
+ padding: 3%;
+}
+
+h1 {
+  font-family: 'Lemon', cursive;
+  font-size: 150px;
+  color:white;
+  text-shadow: 3px 5px 7px #fdbabc;
+  margin:30px;
+  width: 50%;
+ 
+}
+h1:hover{
+  animation-name: h1-hover-LetterSpaceChange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes h1-hover-LetterSpaceChange {
+  from {letter-spacing: 1px;
+  text-shadow: 2px 5px 5px #fdbabc;
+  }
+  to {letter-spacing: 10px;
+  text-shadow: 2px 5px 5px #fdbabc;
+  filter:blur(0px);}
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color:white;
+  margin: 25px;
+  text-shadow: 3px 5px 8px #f9d2d3;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color:white;
+  text-shadow: 3px 5px 8px #f9d2d3;
+  text-decoration:underline;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size:32px;
+  color:white;
+}
+a {
+  color: white;
+}
+div {
+ font-family: 'Labrada', serif;
+  font-size: 45px;
+  color:white;
+  text-shadow:2px 5px 5px #3aaeb5;
+  text-decoration:underline;
+}
+div:hover{
+  animation-name: div-hover-LetterSpaceChange;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+@keyframes div-hover-LetterSpaceChange {
+  from {letter-spacing: 1px;
+  text-shadow: 2px 5px 5px #3aaeb5;
+  }
+  to {letter-spacing: 2px;
+    text-shadow: 2px 5px 5px #3aaeb5;}
+}
+hr {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f9d2d3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f9d2d3;
+}
