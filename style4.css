@@ -1,0 +1,435 @@
+body{
+    background-color:#d7f58d;
+    margin:0px;
+    font-family:'Phudu', cursive;
+    font-size: 50px;
+  }
+  .container1{
+    background-color: #eae60a;
+      width: 450px;
+      height: 460px;
+      padding: 10px;
+    margin-top:25px;
+    margin-left:25px;
+    position: absolute;
+  }
+  .child{
+    background-color: #e2af12;
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    top: 23%;
+    left: 50.2%;
+    transform: translate(-50%,-50%)
+  }
+  .box {
+    background-color:#ffffcc;
+    width:375px;
+    height:43px;
+    position: absolute;
+    top: 1%;
+    left:10%;
+  }
+  .child1{
+    background-color: #a73030;
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    top: 50.5%;
+    left: 32%;
+    transform: translate(-30%,-30%)
+  }
+  .line{
+    background-color:#ffffcc;
+    width:375px;
+    height:3px;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+  }
+  .line1{
+    background-color:#ffffcc;
+    width:375px;
+    height:3px;
+    position: absolute;
+    top: 15%;
+    left: 6%;
+  }
+  .child2{
+   background-color:#fd870c;
+   width: 430px;
+    height: 155px;
+    position: absolute;
+    top:65.5%;
+    left: 4.5%
+    
+  }
+  .container2{
+    background-color:#fdf8e9;
+    width: 450px;
+    height: 350px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 600px;
+    position: absolute ;
+  }
+  .block{
+    background-color:#5fc3e2;
+    width:44px;
+    height: 370px;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+  }
+  .box2{
+    background-color:#fae006;
+    width:150px;
+    height: 157px;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+  }
+  .box3{
+    background-color:red;
+    width:150px;
+    height: 157px;
+    position: absolute;
+    top: 42.4%;
+    left: 45%;
+  }
+  .box4{
+    background-color:black;
+    width:130px;
+    height: 56.5px;
+    position: absolute;
+    top: 84.8%;
+    left: 45%;
+  }
+  .box5{
+   background-color:#fae006;
+    width:130px;
+    height: 56.5px;
+    position: absolute;
+    top: 84.8%;
+    left: 72.3%; 
+  }
+  .box6{
+    background-color:#d2d0d0;
+    width:108.5px;
+    height: 86px;
+    position: absolute;
+    top: 0%;
+    left: 76.9%;
+  }
+  .block1{
+    background-color:black;
+    width:25px;
+    height: 228px;
+    position: absolute;
+    top: 23.3%;
+    left: 76.9%;
+  }
+  .container3{
+    background-color:#e5d9b3;
+    width: 530px;
+      height: 785px;
+      padding: 10px;
+    margin-top:25px;
+    margin-left:1200px;
+    position: absolute;
+  }
+  .circle{
+    height: 135px;
+    width: 120px;
+    background-color: #ffa96a;
+    border: 6px solid darkred;
+    border-radius: 100%;
+    top: 3%;
+    left: 5%;
+    position: absolute;
+  }
+  .curve{
+    background-color:darkred;
+    width: 8px;
+    height: 360px;
+    top:13%;
+    left:45%;
+    position: absolute;
+    transform: rotate(30deg);
+  }
+  .curve1{
+    background-color:darkred;
+    width: 7px;
+    height: 232px;
+    top:24.5%;
+    left:39%;
+    position: absolute;
+  }
+  .e{
+    background-color:darkred;
+    width: 110px;
+    height: 7px;
+    top:24.3%;
+    left:39%;
+    position: absolute;
+  }
+  .circle1{
+    height: 140px;
+    width: 166px;
+    background-color:#7f6107;
+    border: 10px solid darkred;
+    border-radius: 100%;
+    top: 12%;
+    left: 55%;
+    position: absolute;
+  }
+  .curve2{
+   background-color:#422201;
+    width: 15px;
+    height: 40px;
+    top:41.9%;
+    left:40%;
+    position: absolute; 
+  }
+  .curve3{
+    background-color:#422201;
+    width: 105px;
+    height: 15px;
+    top:45%;
+    left:22.5%;
+    position: absolute;
+  }
+  .curve4{
+    background-color:#422201;
+    width: 105px;
+    height: 15px;
+    top:41.9%;
+    left:40%;
+    position: absolute; 
+  }
+  .curve5{
+    background-color:#422201;
+    width: 15px;
+    height: 40px;
+    top:41.9%;
+    left:58%;
+    position: absolute; 
+  }
+  .curve6{
+    background-color:#422201;
+    width: 105px;
+    height: 15px;
+    top:45%;
+    left:60%;
+    position: absolute;
+  }
+  .curve7{
+    background-color:#422201;
+    width: 15px;
+    height: 255px;
+    top:38%;
+    left:78%;
+    position: absolute;
+  }
+  .curve8{
+    background-color:#422201;
+    width: 310px;
+    height: 18px;
+    top:53%;
+    left:22%;
+    position: absolute;
+  }
+  .line2{
+    background-color:darkred;
+    width: 200px;
+    height: 18px;
+    top:38%;
+    left:31%;
+    position: absolute;
+  }
+  .c{
+    background-color:#422201;
+    width: 10px;
+    height: 377px;
+    top:16.5%;
+    left:39%;
+    position: absolute;
+    transform: rotate(152deg);
+  }
+  .line3{
+    background-color:darkred;
+    width: 160px;
+    height: 18px;
+    top:34%;
+    left:28%;
+    position: absolute;
+  }
+  .w{
+   background-color:darkred;
+    width: 10px;
+    height: 55px;
+    top:29%;
+    left:28%;
+    position: absolute;
+  }
+  .w1{
+   background-color:darkred;
+    width: 100px;
+    height: 15px;
+    top:28%;
+    left:28%;
+    position: absolute; 
+  }
+  .line4{
+    background-color:#7a4f0b;
+    width: 83px;
+    height: 18px;
+    top:38%;
+    left:63%;
+    position: absolute;
+  }
+  .b{
+    background-color:#9d683c;
+    width:120px;
+    height: 15px;
+    top:30%;
+    left:0%;
+    position: absolute;
+  }
+  .b1{
+   background-color:#9d683c;
+    width:120px;
+    height: 15px;
+    top:35%;
+    left:0%;
+    position: absolute; 
+  }
+  .b2{
+    background-color:#9d683c;
+    width:120px;
+    height: 15px;
+    top:40%;
+    left:0%;
+    position: absolute;
+  }
+  .b3{
+   background-color:#9d683c;
+    width:120px;
+    height: 15px;
+    top:45%;
+    left:0%;
+    position: absolute; 
+  }
+  .l{
+    background-color:#9d683c;
+    width:15px;
+    height: 136px;
+    top:30%;
+    left:20%;
+    position:absolute;
+  }
+  .w2{
+   background-color:brown;
+    width:20px;
+    height: 255px;
+    top:29%;
+    left:57%;
+    position:absolute; 
+  }
+  .w3{
+   background-color:brown;
+    width:20px;
+    height: 273px;
+    top:28%;
+    left:46%;
+    position:absolute;  
+  }
+  .w4{
+    background-color:darkred;
+    width:20px;
+    height: 273px;
+    top:31%;
+    left:66%;
+    position:absolute;  
+  }
+  .w5{
+    background-color:darkred;
+    width:20px;
+    height: 155px;
+    top:34%;
+    left:25%;
+    position:absolute;
+  }
+  .d{
+    background-color:#422902;
+    width:55px;
+    height: 43px;
+    top: 48%;
+    left: 85%;
+    position: absolute;
+  }
+  .d1{
+   background-color:#975f07;
+    width:55px;
+    height: 43px;
+    top: 57%;
+    left: 83%;
+    position: absolute; 
+  }
+  .r{
+   background-color:#422902;
+    width:15px;
+    height: 70px;
+    top: 51%;
+    left: 85%;
+    position: absolute; 
+  }
+  .r1{
+   background-color:#975f07;
+    width:15px;
+    height: 69px;
+    top: 60%;
+    left: 83%;
+    position: absolute;  
+  }
+  .circle2{
+    height: 140px;
+    width: 266px;
+    background-color: #b81e00;
+    border: 10px solid #7f6000;
+    border-radius: 100%;
+    top: 60%;
+    left: 35%;
+    position: absolute;  
+  }
+  .circle3{
+     height: 120px;
+    width: 219px;
+    background-color: #776e5e;
+    border: 14px solid #7f6000;
+    border-radius: 100%;
+    top: 72%;
+    left: 22%;
+    position: absolute;
+    transform: rotate(66deg);
+  }
+  .circle4{
+    height: 155px;
+    width: 137px;
+    background-color: #e3cda9;
+    border: 6px solid darkred;
+    border-radius: 100%;
+    top: 49.1%;
+    left: 0%;
+    position: absolute;
+  }
+  .circle5{
+   height: 65px;
+    width: 79px;
+    background-color: #cbb38c;
+    border: 6px solid darkorange;
+    border-radius: 100%;
+    top: 59.6%;
+    left: 5%;
+    position: absolute; 
+  }
