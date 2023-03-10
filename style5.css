@@ -1,6 +1,6 @@
 @media (min-width: 375px){
     :root{
-    background-color:#d7f58d;
+    background-color:#e6e6fa;
     font-family:'Phudu', cursive;
   }
   
@@ -63,6 +63,9 @@
     }
   }
   @media screen and (min-width: 600px) {
+    :root{
+        background-color:#6897bb;
+      }
     .container {
       filter: hue-rotate(276deg);
       width: 66vh;
@@ -124,6 +127,9 @@
   }
   
   @media screen and (min-width: 1200px) {
+    :root{
+        background-color:#fff68f;
+      }
     .container {
      filter:hue-rotate(145deg);
      width: 70vh;
