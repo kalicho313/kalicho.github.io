@@ -6,8 +6,8 @@
   
   .container{
     background-color: #eae60a;
-      width: 120%;
-      height: 75vh;
+      width: 57vh;
+      height: 65vh;
       padding: 0%;
     margin-top:10%;
     margin-left:0%;
@@ -15,58 +15,58 @@
   }
   .child{
     background-color: #e2af12;
-    width: 66vh;
-    height: 40vh;
-    top: 2vh;
+    width: 55vh;
+    height: 33vh;
+    top: 1vh;
     left: 1vh;
     position: relative;
   }
   .box {
     background-color:#ffffcc;
-    width:60vh;
-    height:6vh;
-    top:-53%;
-    left:4.5vh;
+    width:53vh;
+    height:5vh;
+    top:-50%;
+    left:2vh;
     position: relative;
   }
   .child1{
     background-color: #a73030;
-    width: 66vh;
-    height: 11vh;
+    width: 55vh;
+    height: 9vh;
     position: relative;
-    top: -5.2%;
-    left: 1.5%;
+    top: -5.9%;
+    left: 1.8%;
   }
   .line{
     background-color:#ffffcc;
-    width:60vh;
+    width:50vh;
     height:4%;
     position: relative;
     top: 10%;
-    left: 6%;
+    left: 4.5%;
   }
   .line1{
     background-color:#ffffcc;
-    width:60vh;
+    width:50vh;
     height:4%;
     position: relative;
     top: 15%;
-    left: 6%;
+    left: 4.5%;
   }
   .child2{
    background-color:#fd870c;
-   width: 66vh;
+   width: 55vh;
     height: 20vh;
     position: relative;
-    top: -5%;
-    left: 1.5%
+    top: -5.5%;
+    left: 1.8%
     }
   }
   @media screen and (min-width: 600px) {
     .container {
       filter: hue-rotate(276deg);
-      width: 70vh;
-      height: 75vh;
+      width: 66vh;
+      height: 70vh;
       padding: 0%;
     margin-top:10%;
     margin-left:0%;
@@ -74,9 +74,9 @@
     }
     .child{
     background-color: #e2af12;
-    width: 66vh;
+    width: 64vh;
     height: 40vh;
-    top: 2vh;
+    top: 1vh;
     left: 1vh;
     position: relative;
   }
@@ -84,17 +84,17 @@
     background-color:#ffffcc;
     width:60vh;
     height:6vh;
-    top:-53%;
-    left:4.5vh;
+    top:-56.5%;
+    left:2.8vh;
     position: relative;
   }
   .child1{
     background-color: #a73030;
-    width: 66vh;
+    width: 64vh;
     height: 11vh;
     position: relative;
-    top: -0.8%;
-    left: 29.8%;
+    top: -2%;
+    left: 30.5%;
     transform: translate(-30%,-30%)
   }
   .line{
@@ -103,7 +103,7 @@
     height:4%;
     position: relative;
     top: 10%;
-    left: 6%;
+    left: 4%;
   }
   .line1{
     background-color:#ffffcc;
@@ -111,14 +111,14 @@
     height:4%;
     position: relative;
     top: 15%;
-    left: 6%;
+    left: 4%;
   }
   .child2{
    background-color:#fd870c;
-   width: 66vh;
-    height: 20vh;
+   width: 64vh;
+    height: 16vh;
     position: relative;
-    top: -5%;
+    top: -6.3%;
     left: 1.5%
     }
   }
@@ -135,7 +135,7 @@
     }
     .child{
     background-color: #e2af12;
-    width: 66vh;
+    width: 68vh;
     height: 40vh;
     top: 2vh;
     left: 1vh;
@@ -143,43 +143,43 @@
   }
   .box {
     background-color:#ffffcc;
-    width:60vh;
+    width:62vh;
     height:6vh;
     top:-53%;
-    left:4.5vh;
+    left:4vh;
     position: relative;
   }
   .child1{
     background-color: #a73030;
-    width: 66vh;
+    width: 68vh;
     height: 11vh;
     position: relative;
-    top: -0.8%;
-    left: 29.8%;
+    top: -0.6%;
+    left: 30.5%;
     transform: translate(-30%,-30%)
   }
   .line{
     background-color:#ffffcc;
-    width:60vh;
+    width:62vh;
     height:4%;
     position: relative;
     top: 10%;
-    left: 6%;
+    left: 4.5%;
   }
   .line1{
     background-color:#ffffcc;
-    width:60vh;
+    width:62vh;
     height:4%;
     position: relative;
     top: 15%;
-    left: 6%;
+    left: 4.5%;
   }
   .child2{
    background-color:#fd870c;
-   width: 66vh;
-    height: 20vh;
+   width: 68vh;
+    height: 19.5vh;
     position: relative;
-    top: -5%;
+    top: -4.5%;
     left: 1.5%
     }
   }
