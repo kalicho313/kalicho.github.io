@@ -1,14 +1,10 @@
 let images = [
     {title: "red", url: "BG-color2_01.webp"}, 
-    {title: "orange/yellow", url:"FFCC00.png.png"},
-    {title: "We Love to Piss", url: "./assets/3.jpg"},
-    {title: "No Horses", url: "./assets/4.jpg" }, 
-    {title: "Bunghole Liquors", url: "./assets/5.jpg" }, 
-    {title: "Questions & Answers", url: "./assets/6.jpg" }, 
-    {title: "Free Hand Design", url: "./assets/7.jpg" }, 
-    {title: "Ok, No", url: "./assets/8.jpg" }, 
-    {title: "Go Vegan", url: "./assets/9.jpg" }, 
-    {title: "Art is Life Ink", url: "./assets/10.jpg" }, 
+    {title: "orange/yellow", url:"download (1).png"},
+    {title: "green", url: "Emerald-green-painted-swatch.jpeg"},
+    {title: "blue", url: "Solid_blue.svg.png" }, 
+    {title: "white", url: "download.png" }, 
+    
 
 ]
 

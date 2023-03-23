@@ -2,14 +2,17 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
-
+    background-color: beige;
+    font-size: 20px;
 
 }
 
 .gallery-img{
     width: 30vw;
 }
-
+.p{
+    font-display: grid;
+}
 
 /* #button{
     padding: 2em;
