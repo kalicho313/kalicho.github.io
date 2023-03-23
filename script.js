@@ -22,7 +22,9 @@ galleryItem.appendChild(img); // adds the image into the div
 
 document.querySelector('.gallery').appendChild(galleryItem) // adds the div to the gallery section we added earlier in the html
 
+				
 
 }
+
 
 images.forEach(generateGalleryItems)
