@@ -1,6 +1,6 @@
 let images = [
-    {title: "Open", url: "./assets/1.jpg"}, 
-    {title: "Can't Stop the Dance", url:"./assets/2.jpg"},
+    {title: "red", url: "BG-color2_01.webp"}, 
+    {title: "orange/yellow", url:"FFCC00.png.png"},
     {title: "We Love to Piss", url: "./assets/3.jpg"},
     {title: "No Horses", url: "./assets/4.jpg" }, 
     {title: "Bunghole Liquors", url: "./assets/5.jpg" }, 
