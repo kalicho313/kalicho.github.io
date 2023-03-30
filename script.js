@@ -20,6 +20,7 @@ img.src = images.url //specifies the source of the image to be the url in our im
 const galleryItem = document.createElement("div") // creates a new div called gallery item
 galleryItem.appendChild(img); // adds the image into the div
 
+
 document.querySelector('.gallery').appendChild(galleryItem) // adds the div to the gallery section we added earlier in the html
 
 				
