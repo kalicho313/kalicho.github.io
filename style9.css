@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 375px)and (max-width:2000px){
 body {
     display: block;
   margin: 20px;
@@ -64,4 +64,73 @@ footer {
     border-top: 10px solid #350099;
     font-family: 'Comfortaa', cursive;
     letter-spacing: 3px;
+}
+}
+@media screen and (min-width: 375px){
+body {
+    display: block;
+  margin: 20px;
+  line-height: 2;
+  background-color:#ff4040;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+        "header"
+        "main"
+        "aside"
+        "footer";
+    gap: 0.5px;
+}
+header {
+    background-color: #ffff66;
+    grid-area: header;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color:#ff4040;
+    text-align: center;
+    padding: 10px;
+    border-top: 10px solid #ccff00;
+    border-bottom: 10px solid #ccff00;
+}
+main {
+    background-color: #afeeee;
+    grid-area: main;
+    columns: 1;
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    padding: 10px;
+    text-align: center;
+   border-top: 10px solid #ff1493;
+    border-bottom: 10px solid #ff1493;
+    font-family: 'Comfortaa', cursive;
+    font-size:28px;
+    overflow-y: auto;
+}
+aside {
+    background-color: #008080;
+    grid-area: aside;
+    padding: 10px;
+    border-bottom: 10px solid #ffd700;
+    border-top: 10px solid #ffd700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #ffd700;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+footer {
+    grid-area: footer;
+    background-color: #b7dffd;
+    padding: 10px;
+    text-align: center;
+    color:#ff1493;
+    text-decoration:underline;
+    border-bottom: 10px solid #350099;
+    border-top: 10px solid #350099;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 3px;
+}
 }
