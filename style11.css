@@ -1,5 +1,5 @@
 body{
-    background: pink;
+    background: skyblue;
 }
 
 
@@ -38,26 +38,26 @@ p{
   font-size: 30px;
   padding: 1em;
   text-align: left;
-  font-family: 'Hachi Maru Pop', cursive;
+  font-family: 'Yomogi', cursive;
   color:white;
 }
 #title{
-    font-family: 'Hachi Maru Pop', cursive;
-    font-size: 50px;
+    font-family: 'Yomogi', cursive;
+    font-size: 65px;
     color: white;
 }
 button{
-    background-color:#fff68f;
- }
- img {
-   padding: 5px;
-   width: 250px;
-   object-fit: contain;
-  object-position: 100% 100%;
- }
- .center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 150px;
- }
+    background-color:#d3ffce;
+}
+img {
+  padding: 5px;
+  width: 250px;
+  object-fit: contain;
+ object-position: 100% 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
