@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style10.css">
     <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
     <h1 id="title">2019 Top 20 Baby Girl Name</h1>
@@ -44,6 +45,41 @@
             <p>19. Maya</p>
             <p>20. Lily</p>
             <div class="dog-area square"></div>
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["Chaya","Leah","Esther","Olivia","Miriam","Emma","Rachel","Sarah","Charlotte","Sophia"];
+var yValues = [209,207,202,200,193,186,171,168,158,154];
+var barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145",
+  "#c6e2ff",
+  "#ff0000",
+  "#bada55",
+  "#ff7f50",
+  "#593805"
+];
+
+new Chart("myChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "2019 Top 20 Baby Girl Name"
+    }
+  }
+});
+</script>
       <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/cloud.png?v=1682648376156" class="center">
       <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/balloon.png?v=1682648380120" class="center">
       </main>
