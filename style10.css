@@ -41,16 +41,24 @@ p{
   font-family: 'Hachi Maru Pop', cursive;
   color:white;
 }
+h2{
+  font-size: 50px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white; 
+  } 
 #title{
     font-family: 'Hachi Maru Pop', cursive;
-    font-size: 50px;
+    font-size: 160px;
     color: white;
+    text-shadow: 2px 2px 7px #fff68f;
 }
 button{
     background-color:#fff68f;
     box-sizing: 1000px;
-  justify-content: center;
-  margin: 0 auto;
+    justify-content: center;
+    margin: 0 auto;
  }
  img {
    padding: 5px;
@@ -62,7 +70,7 @@ button{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 350px;
 }
  .myChart{
   justify-content: center;
