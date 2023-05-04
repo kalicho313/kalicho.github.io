@@ -1,5 +1,12 @@
 body{
     background: pink;
+    cursor: grab;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -56,7 +63,7 @@ h2{
 }
 button{
     background-color:#fff68f;
-    box-sizing: 1000px;
+    size: 1000px;
     justify-content: center;
     margin: 0 auto;
  }
@@ -73,5 +80,6 @@ button{
   width: 350px;
 }
  .myChart{
-  justify-content: center;
+ align-self: flex-end;
+ flex-grow: 2;
  }

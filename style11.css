@@ -1,7 +1,13 @@
 body{
     background: skyblue;
+    cursor:grab;
 }
-
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .babyname{
     /* background: green; */
@@ -68,4 +74,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 355px;
+}
+.myChart{
+  align-self: flex-end;
+  flex-grow: 2;
 }
