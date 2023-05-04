@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
     <script src="script2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
     <h1 id="title">2019 Top 20 Baby Boy Name</h1>
@@ -45,6 +46,50 @@
             <p>19. Chaim</p>
             <p>20. Adam</p>
             <div class="dog-area square"></div>
+            <canvas id="myChart" style="width:100%;max-width:900px;"></canvas>
+            <script>
+            var xValues = ["David","Joseph Michael","Moshe","Jacob","James","Jack","Noah","Benjamin","Henry","Daniel",
+            "Alexander Leo","Theodore","Charles","Oliver","Samuel","John","Liam","Abraham","Chaim","Adam"];
+            var yValues = [252,233,232,213,208,204,189,182,175,174,168,156,148,146,145,144,143,141,138,134];
+            var barColors = [
+              "#b91d47",
+              "#00aba9",
+              "#2b5797",
+              "#e8c3b9",
+              "#1e7145",
+              "#c6e2ff",
+              "#ff0000",
+              "#bada55",
+              "#ff7f50",
+              "#593805",
+              "#800080",
+              "#ffde2b",
+              "#3fcbff",
+              "#f85376",
+              "#20b2aa",
+              "#ffdab9",
+              "#b6fcd5",
+              "#8a2be2",
+              "#ff1493"
+            ];
+            
+            new Chart("myChart", {
+              type: "doughnut",
+              data: {
+                labels: xValues,
+                datasets: [{
+                  backgroundColor: barColors,
+                  data: yValues
+                }]
+              },
+              options: {
+                title: {
+                  display: true,
+                  text: "2019 Top 20 Baby Boy Name"
+                }
+              }
+            });
+            </script>   
       <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%208.png?v=1682650789549" class="center">
       <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%2016.png?v=1682650785744" class="center">
         </main>

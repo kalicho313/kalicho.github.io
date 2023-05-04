@@ -37,7 +37,7 @@ h1{
 p{
   font-size: 30px;
   padding: 1em;
-  text-align: left;
+  text-align: center;
   font-family: 'Yomogi', cursive;
   color:white;
 }
@@ -60,4 +60,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 150px;
+}
+.mychart{
+  justify-items: center;
 }
