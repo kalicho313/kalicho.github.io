@@ -41,10 +41,18 @@ p{
   font-family: 'Yomogi', cursive;
   color:white;
 }
+h2{
+  font-size: 70px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Yomogi', cursive;
+  color:white; 
+  } 
 #title{
     font-family: 'Yomogi', cursive;
     font-size: 180px;
     color: white;
+    text-shadow: 5px 5px 7px #d3ffce;
 }
 button{
     background-color:#d3ffce;
