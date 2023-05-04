@@ -49,6 +49,10 @@ p{
 button{
     background-color:#fff68f;
  }
+boy{
+  box-sizing: 1000px;
+  justify-content: center;
+ }
  img {
    padding: 5px;
    width: 250px;
