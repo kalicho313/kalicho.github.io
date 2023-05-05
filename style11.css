@@ -8,7 +8,15 @@ main{
   justify-content: center;
   align-items: center;
 }
-
+body{
+  cursor: url("blue.png"), url("blue.png"), default;
+  }
+  head{
+    cursor: url("blue.png"), url("blue.png"), default;
+  } 
+  a{
+    cursor: url("blue.png"), url("blue.png"), default; 
+  }
 .babyname{
     /* background: green; */
     width: 40px;
@@ -62,6 +70,15 @@ h2{
 }
 button{
     background-color:#d3ffce;
+    font-family: 'Yomogi', cursive;
+    font-size: 25px;
+    width: 200px;
+     height: 100px;
+     border-color: #d3ffce;
+     border-right: #d3ffce;
+     border-bottom: #d3ffce;
+     justify-content: center;
+    margin: 0 auto;
 }
 img {
   padding: 5px;
