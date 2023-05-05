@@ -43,10 +43,8 @@ h1{
   font-size: 30px;
   padding: 1em;
   text-align: center;
-  font-family: 'Pathway Extreme', sans-serif;
-  color: #000080;
-  
-
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
 }
 p{
   font-size: 30px;
@@ -56,12 +54,145 @@ p{
   color:white;
 }
 h2{
-  font-size: 50px;
+  font-size: 52px;
   padding: 1em;
   text-align: center;
   font-family: 'Hachi Maru Pop', cursive;
   color:white; 
   } 
+h3{
+  font-size: 48px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+h4{
+  font-size: 46px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white; 
+}
+.olivia{
+  font-size: 44px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.miriam{
+  font-size: 42px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.emma{
+  font-size: 40px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.rachel{
+  font-size: 38px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.sarah{
+  font-size: 36px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.charlotte{
+  font-size: 34px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.sophia{
+  font-size: 32px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.rivka{
+  font-size: 30px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.mia{
+  font-size: 28px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.chana{
+  font-size: 26px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.ella{
+  font-size: 24px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.sofia{
+  font-size: 22px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.emily{
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.ava{
+  font-size: 18px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.gitty{
+  font-size: 16px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white;
+}
+.maya{
+  font-size: 14px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white; 
+}
+.lily{
+  font-size: 12px;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  color:white; 
+}
 #title{
     font-family: 'Hachi Maru Pop', cursive;
     font-size: 160px;
@@ -72,7 +203,7 @@ button{
     background-color:#fff68f;
     font-family: 'Hachi Maru Pop', cursive;
     font-size: 20px;
-    width: 200px;
+    width: 500px;
      height: 100px;
      border-color: #fff68f;
      border-right: #fff68f;
