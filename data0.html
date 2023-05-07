@@ -44,53 +44,6 @@
             <p class="maya">19. Maya</p>
             <p class="lily">20. Lily</p>
             <div class="dog-area square"></div>
-<canvas id="myChart" style="max-width:1200px;"></canvas>
-<script>
-var xValues = ["Chaya","Leah","Esther","Olivia","Miriam","Emma","Rachel","Sarah","Charlotte","Sophia",
-"Rivka Sara","Mia","Chana","Ella","Sofia","Emily","Ava","Gitty","Maya","Lily"];
-var yValues = [209,207,202,200,193,186,171,168,158,154,138,134,124,118,116,108,107,99,96,95];
-var barColors = [
-  "#b91d47",
-  "#00aba9",
-  "#2b5797",
-  "#e8c3b9",
-  "#1e7145",
-  "#c6e2ff",
-  "#ff0000",
-  "#bada55",
-  "#ff7f50",
-  "#593805",
-  "#800080",
-  "#ffde2b",
-  "#3fcbff",
-  "#f85376",
-  "#20b2aa",
-  "#ffdab9",
-  "#b6fcd5",
-  "#8a2be2",
-  "#ff1493"
-];
-
-new Chart("myChart", {
-  type: "doughnut",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    title: {
-      display: true,
-      text: "2019 Top 20 Baby Girl Name"
-    }
-  }
-});
-</script>
-      <p id="boy"></p>
-      <button class="button" onclick="document.getElementById('boy').style.size='200px'">
-        <a href="data1.html">Go Boy!</a></button>
       </main>
 
 </body>
