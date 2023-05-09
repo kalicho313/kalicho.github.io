@@ -1,3 +1,13 @@
+body{
+  background: #f0f8ff;
+   cursor: url("blue.png"), url("blue.png"), default;
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 head{
   cursor: url("blue.png"), url("blue.png"), default;
 } 
