@@ -1,50 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popular Baby names</title>
     <link rel="stylesheet" href="style10.css">
     <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-</head>
-<body>
-    <h1 id="title">2019 Top 20 Baby Girl Name</h1>
+  </head>
+  <body>
     <main>
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/bear%202.png?v=1682648381492" class="center">
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/crown.png?v=1682648375140" class="center">
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/cloud.png?v=1682648376156" class="center">
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/balloon.png?v=1682648380120" class="center">
-            <h2> 1. Chaya </h2>
-            <h3>2. Leah</h3> 
-            <h4>3. Esther</h4>
-            <p class="olivia">4. Olivia</p>
-            <p class="miriam">5. Miriam</p>
-            <div class="apple-area square "></div>
- 
-            <p class="emma">6. Emma </p>
-            <p class="rachel">7. Rachel</p> 
-            <p class="sarah">8. Sarah</p>
-            <p class="charlotte">9. Charlotte</p>
-            <p class="sophia">10. Sophia</p>
-            <div class="banana-area square"></div>
+<body>
+  <div class="one">
+    <p> 1. Chaya </p>
+            <p>2. Leah</p> 
+            <p>3. Esther</p>
+            <p>4. Olivia</p>
+            <p>5. Miriam</p> 
+    <p>6. Emma </p>
+            <p>7. Rachel</p> 
+            <p>8. Sarah</p>
+            <p>9. Charlotte</p>
+            <p>10. Sophia</p>
+  </div>
+   <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/bear%202.png?v=1682648381492" class="bear">
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/crown.png?v=1682648375140" class="crown">
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/cloud.png?v=1682648376156" class="cloud">
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/balloon.png?v=1682648380120" class="balloon">
+<div class="two">
+  <p>11. Rivka Sara</p>
+            <p>12. Mia</p> 
+            <p>13. Chana</p>
+            <p>14. Ella</p>
+            <p>15. Sofia</p>
+    <p>16. Emily </p>
+            <p>17. Ava</p> 
+            <p>18. Gitty</p>
+            <p>19. Maya</p>
+    <p>20. Lily</p>
+  </div>
+      </body>
+<canvas id="myChart" style="width:100%;max-width:1000px"></canvas>
 
-            <p class="rivka">11. Rivka Sara</p>
-            <p class="mia">12. Mia</p> 
-            <p class="chana">13. Chana</p>
-            <p class="ella">14. Ella</p>
-            <p class="sofia">15. Sofia</p>
-            <div class="cat-area square"></div>
+<script>
+const xValues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+const yValues = [209,207,202,200,193,186,171,168,158,154,138,134,124,118,116,108,107,99,96,95];
 
-            <p class="emily">16. Emily </p>
-            <p class="ava">17. Ava</p> 
-            <p class="gitty">18. Gitty</p>
-            <p class="maya">19. Maya</p>
-            <p class="lily">20. Lily</p>
-            <div class="dog-area square"></div>
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "#ff1493",
+      borderColor: "#ffc0cb",
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    scales: {
+      yAxes: [{ticks: {min: 95, max:209}}],
+    }
+  }
+});
+</script>
       </main>
-
-</body>
+  </body>
 </html>
