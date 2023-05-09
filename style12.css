@@ -16,6 +16,7 @@ body{
         border-right: #8a2be2;
         border-bottom: #8a2be2;
        justify-content: center;
+       align-self:center;
        margin: 0 auto;
    }
     img {
@@ -30,4 +31,3 @@ body{
      margin-right: auto;
      width: 150px;
    }
-   
