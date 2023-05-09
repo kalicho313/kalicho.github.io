@@ -51,6 +51,14 @@ text-align: center;
 font-family: 'Hachi Maru Pop', cursive;
 color:#ff1493;
 }
+.first{
+  font-size: 23px;
+padding: 1em;
+text-align: center;
+font-family: 'Hachi Maru Pop', cursive;
+color:#ff1493;
+text-shadow: 2px 2px 7px #d30776;
+}
 #title{
   font-family: 'Hachi Maru Pop', cursive;
   font-size: 160px;
