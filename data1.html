@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popular Baby names</title>
     <link rel="stylesheet" href="style11.css">
     <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
-    <script src="script2.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-</head>
-<body>
-    <h1 id="title">2019 Top 20 Baby Boy Name</h1>
+  </head>
+  <body>
     <main>
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%204.png?v=1682650782210" class="center">
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%204%20copy.png?v=1682650787983" class="center">
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%208.png?v=1682650789549" class="center">
-      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%2016.png?v=1682650785744" class="center">
-            <h2> 1. David</h2>
+      <div class="three">
+        <p> 1. David</p>
             <p>2. Joseph Michael</p> 
             <p>3. Moshe</p>
             <p>4. Jacob</p>
             <p>5. James</p>
-            <div class="apple-area square "></div>
-
             <p>6. Jack </p>
             <p>7. Noah</p> 
             <p>8. Benjamin</p>
             <p>9. Henry</p>
-            <p>10. Daniel</p>
-            <div class="banana-area square"></div>
-
-            <p>11. Alexander Leo</p>
+            <p>10. Daniel</p> 
+      </div>
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%204.png?v=1682650782210" class="bear1">
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%204%20copy.png?v=1682650787983" class="close">
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%208.png?v=1682650789549" class="bb">
+      <img src="https://cdn.glitch.global/f7e2761c-b31d-4346-9b65-092a3762f326/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%2016.png?v=1682650785744" class="boy">
+        <div class="four">
+         <p>11. Alexander Leo</p>
             <p>12. Theodore</p> 
             <p>13. Charles</p>
             <p>14. Oliver</p>
             <p>15. Samuel</p>
-            <div class="cat-area square"></div>
-
             <p>16. John</p>
             <p>17. Liam</p> 
             <p>18. Abraham</p>
             <p>19. Chaim</p>
-            <p>20. Adam</p>
-            <div class="dog-area square"></div> 
-        </main>
+            <p>20. Adam</p> 
+      </div>
+          
+             
+      <canvas id="myChart" style="width:100%;max-width:1000px"></canvas>
 
-    </body>
-    </html>
+<script>
+const xValues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+const yValues = [252,233,232,213,208,204,189,182,175,174,168,156,148,146,145,144,143,141,138,134];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "#3399ff",
+      borderColor: "##f0f8ff",
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    scales: {
+      yAxes: [{ticks: {min: 130, max:252}}],
+    }
+  }
+});
+</script>
+        </main>
+  </body>
+</html>

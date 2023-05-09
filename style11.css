@@ -1,98 +1,96 @@
-body{
-    background: skyblue;
-    cursor:grab;
-}
-main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-body{
+head{
   cursor: url("blue.png"), url("blue.png"), default;
-  }
-  head{
-    cursor: url("blue.png"), url("blue.png"), default;
-  } 
-  a{
-    cursor: url("blue.png"), url("blue.png"), default; 
-  }
-.babyname{
-    /* background: green; */
-    width: 40px;
-    height: 30px;
-    border-radius: 0 50px;
-    transform: rotate(0deg);
-    margin: 0.5em;
-    border: 1px solid red;
-    box-shadow: inset 0 0 5px red;
-
+} 
+a{
+  cursor: url("blue.png"), url("blue.png"), default; 
 }
-
-.apple{
-    background-color: blue;
-}
-.banana{
-    background-color: red; 
-}
-.cat{
-    background-color: yellow; 
-}
-
 h1{
-  font-size: 30px;
-  padding: 1em;
-  text-align: center;
-  font-family: 'Pathway Extreme', sans-serif;
-  color: #000080;
-  
+font-size: 30px;
+padding: 1em;
+text-align: center;
+font-family: 'Pathway Extreme', sans-serif;
+color: #000080;
 
 }
 p{
-  font-size: 30px;
-  padding: 1em;
-  text-align: center;
-  font-family: 'Yomogi', cursive;
-  color:white;
+font-size: 20px;
+padding: 1em;
+text-align: center;
+font-family: 'Yomogi', cursive;
+color:#3399ff;
 }
-h2{
-  font-size: 70px;
-  padding: 1em;
-  text-align: center;
-  font-family: 'Yomogi', cursive;
-  color:white; 
-  } 
+
 #title{
-    font-family: 'Yomogi', cursive;
-    font-size: 180px;
-    color: white;
-    text-shadow: 5px 5px 7px #d3ffce;
+  font-family: 'Yomogi', cursive;
+  font-size: 180px;
+  color: #2acaea;
+  text-shadow: 5px 5px 7px #d3ffce;
 }
 button{
-    background-color:#d3ffce;
-    font-family: 'Yomogi', cursive;
-    font-size: 25px;
-    width: 200px;
-     height: 100px;
-     border-color: #d3ffce;
-     border-right: #d3ffce;
-     border-bottom: #d3ffce;
-     justify-content: center;
-    margin: 0 auto;
+  background-color:#d3ffce;
+  font-family: 'Yomogi', cursive;
+  font-size: 25px;
+  width: 200px;
+   height: 100px;
+   border-color: #d3ffce;
+   border-right: #d3ffce;
+   border-bottom: #d3ffce;
+   justify-content: center;
+  margin: 0 auto;
 }
 img {
-  padding: 5px;
-  width: 250px;
-  object-fit: contain;
- object-position: 100% 100%;
+padding: 5px;
+width: 250px;
+object-fit: contain;
+object-position: 100% 100%;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 355px;
+.bear1 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 165px;
+top:10%;
+position:absolute;
 }
-.myChart{
-  align-self: flex-end;
-  flex-grow: 2;
+.close{
+ display: block;
+margin-left: auto;
+margin-right: auto;
+width: 165px;
+top:28%;
+position:absolute; 
+}
+.bb{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 165px;
+top:44%;
+position:absolute; 
+}
+.boy{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 165px;
+top:62%;
+position:absolute;
+}
+.three{
+background-color:#f0f8ff;
+border: 3px solid #f0f8ff;
+width:700px;
+height:900px;
+justify-content:right;
+align-self: baseline;
+}
+.four{
+ background-color:#f0f8ff;
+border: 5px solid #f0f8ff;
+justify-content:right;
+align-self: flex-end;
+width:700px;
+height:900px;
+top:0%;
+position:absolute;
 }
