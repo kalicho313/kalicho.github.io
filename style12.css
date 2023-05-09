@@ -1,0 +1,32 @@
+body{
+    background-color: #ffff66;
+    font-family: 'Short Stack', cursive;
+    font-size:100px;
+    color: #e6e6fa;
+     text-shadow: 2px 2px #8a2be2;
+     text-align: center;
+   }
+   button{
+     font-family: 'Short Stack', cursive;
+     background-color:#e6e6fa;
+     font-size: 20px;
+     width: 200px;
+        height: 70px;
+        border-color: #8a2be2;
+        border-right: #8a2be2;
+        border-bottom: #8a2be2;
+       justify-content: center;
+       margin: 0 auto;
+   }
+    img {
+      padding: 5px;
+      width: 250px;
+      object-fit: contain;
+     object-position: 100% 100%;
+    }
+    .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 150px;
+   }
